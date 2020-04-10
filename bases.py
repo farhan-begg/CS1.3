@@ -66,7 +66,7 @@ def encode(number, base):
             encodedValue += str(remainder)
 
     encodedValue = encodedValue[::-1]
-
+    # print(encodedValue)
     return encodedValue
 
 
@@ -111,3 +111,7 @@ def main():
 
 if __name__ == '__main__':
     main()
+    # decode("10101", 2)
+    # encode(11, 16)
+    # encode(10, 2)
+    # convert("1010", 2, 16)
