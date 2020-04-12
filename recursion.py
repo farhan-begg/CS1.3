@@ -15,16 +15,17 @@ def factorial(n):
 
 def factorial_iterative(n):
     # TODO: implement the factorial function iteratively here
-    pass
+    # pass
     # once implemented, change factorial (above) to call factorial_iterative
     # to verify that your iterative implementation passes all tests
 
-    factorialValue = 1
+    factorial_value = 1
 
-    for i in range(1, n + 1):
-        factorialValue = factorialValue * i
+    for i in range(n)
+    num = n - i
+    factorial_value += num
 
-    return factorialValue
+    return factorial_value
 
 
 def factorial_recursive(n):
