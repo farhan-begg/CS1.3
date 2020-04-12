@@ -21,9 +21,9 @@ def factorial_iterative(n):
 
     factorial_value = 1
 
-    for i in range(n)
-    num = n - i
-    factorial_value += num
+    for i in range(n):
+        num = n - i
+        factorial_value += num
 
     return factorial_value
 
