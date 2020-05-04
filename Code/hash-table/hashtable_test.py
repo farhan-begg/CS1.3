@@ -1,4 +1,5 @@
 #!python
+from linkedlist import LinkedList
 
 from hashtable import HashTable
 import unittest
